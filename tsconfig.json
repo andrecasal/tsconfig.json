@@ -1,0 +1,114 @@
+{
+	"include": [
+		"remix.env.d.ts",
+		"**/*.ts",
+		"**/*.tsx"
+	],
+	"compilerOptions": {
+		//"allowJs": false, // don't allow JS
+		//"allowSyntheticDefaultImports": true, // default exports are bad practice
+		//"allowUmdGlobalAccess": true, // ESM superseeds UMD. It's now irrelevant
+		"allowUnreachableCode": false,
+		//"allowUnusedLabels": false, // Labels are very uncomon, and therefore, bad practice
+		//"alwaysStrict": true, // Emits “use strict” for each file. Is true by default with "strict": true
+		//"assumeChangesOnlyAffectDirectDependencies": false, // Only rebuild changed and directly imported files. Defaults to false
+		"baseUrl": ".",
+		//"checkJs": false, // Works in tandem with allowJS. When enabled check JS files too. Irrelevant because allowJS is false
+		"composite": true, // Allow build tools to determine if a project has been built yet. Defaults to true
+		"declaration": true, // Create type definition .d.ts files that describe the external API of your modules
+		//"declarationDir": null, // Define where the .d.ts files will be located
+		"declarationMap": true, // Create sourcemaps for d.ts files. Allows editors to go to the original .ts file when using features like Go to Definition.
+		//"diagnostics": true, // Subset of extendedDiagnostics which is more user-friendly. Use extendedDiagnostics instead
+		"disableReferencedProjectLoad": false,
+		"disableSizeLimit": true, // Remove TS's upper memory limit
+		"disableSolutionSearching": false,
+		"disableSourceOfProjectReferenceRedirect": false,
+		//"downlevelIteration": false,
+		//"emitBOM": false,
+		//"emitDeclarationOnly": false,
+		"emitDecoratorMetadata": true,
+		//"esModuleInterop": false,
+		"exactOptionalPropertyTypes": true,
+		"experimentalDecorators": true,
+		"explainFiles": false,
+		"extendedDiagnostics": true,
+		"forceConsistentCasingInFileNames": true,
+		"importHelpers": true,
+		//"importsNotUsedAsValues": "remove",
+		"incremental": true,
+		//"inlineSourceMap": false,
+		//"inlineSources": false,
+		//"isolatedModules": false,
+		"jsx": "react-jsx",
+		//"jsxFactory": "React.createElement",
+		//"jsxFragmentFactory": "React.Fragment",
+		//"jsxImportSource": "react",
+		"lib": [
+			"DOM",
+			"DOM.Iterable",
+			"ES2019"
+		],
+		//"listEmittedFiles": false,
+		//"listFiles": false,
+		//"mapRoot": "./",
+		//"maxNodeModuleJsDepth": 0,
+		//"module": "CommonJS",
+		//"moduleDetection": "auto",
+		"moduleResolution": "Node",
+		//"moduleSuffixes": [''],
+		//"newLine": "lf",
+		//"noEmit": false,
+		//"noEmitHelpers": false,
+		//"noEmitOnError": false,
+		"noErrorTruncation": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitAny": true,
+		"noImplicitOverride": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		//"noImplicitUseStrict": false,
+		//"noLib": false,
+		"noPropertyAccessFromIndexSignature": true,
+		//"noResolve": false,
+		//"noStrictGenericChecks": false,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		//"outDir": ".",
+		//"outFile": "build.js",
+		"paths": {
+			"~/*": [
+				"./app/*"
+			]
+		},
+		//"plugins": [],
+		//"preserveConstEnums": false,
+		//"preserveSymlinks": false,
+		//"preserveValueImports": false,
+		"preserveWatchOutput": false,
+		//"pretty": true,
+		//"reactNamespace": "React",
+		"removeComments": true,
+		"resolveJsonModule": true,
+		//"rootDir": "./",
+		//"rootDirs": ["./"],
+		//"skipLibCheck": false,
+		"sourceMap": true,
+		//"sourceRoot": "./",
+		"strict": true,
+		//"strictBindCallApply": true,
+		//"strictFunctionTypes": true,
+		//"strictNullChecks": true,
+		//"strictPropertyInitialization": true,
+		//"stripInternal": false,
+		//"suppressExcessPropertyErrors": false,
+		//"suppressImplicitAnyIndexErrors": false,
+		"target": "ES6",
+		//"traceResolution": false,
+		//"tsBuildInfoFile": ".tsbuildinfo",
+		//"typeRoots": ["./"],
+		//"types": ["./"],
+		//"useDefineForClassFields": true,
+		//"useUnknownInCatchVariables": true,
+	}
+}
